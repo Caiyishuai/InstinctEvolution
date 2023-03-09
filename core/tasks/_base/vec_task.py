@@ -494,7 +494,9 @@ class VecTask(Env):
     def close(self):
         if self.cfg.video.enable:
             self.camera_video_writer.release()
-
+        if self.viewer:
+            self.gym.destroy_viewer(self.viewer)
+            
         self.gym.destroy_sim(self.sim)
 
     def zero_actions(self) -> torch.Tensor:
