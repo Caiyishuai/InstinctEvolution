@@ -19,20 +19,6 @@ Paper: [https://ieeexplore.ieee.org/document/10342243]
 
 4. Install RL-Games
    * https://github.com/Denys88/rl_games
-# Paper and Citation
-
-If you find our work useful, please consider citing us! 
-
-```bibtex
-@inproceedings{cai2023task2morph,
-  title={Task2Morph: Differentiable Task-Inspired Framework for Contact-Aware Robot Design},
-  author={Cai, Yishuai and Yang, Shaowu and Li, Minglong and Chen, Xinglin and Mao, Yunxin and Yi, Xiaodong and Yang, Wenjing},
-  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  pages={452--459},
-  year={2023},
-  organization={IEEE}
-}
-```
 
 
 ## Usage
